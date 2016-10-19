@@ -27,6 +27,7 @@ public class Activity_launch_standard extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        System.out.println();
     }
 
     @Override

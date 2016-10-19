@@ -6,8 +6,17 @@ package com.example.darshanmistry.camera.package1;
 
 public class ClassD extends ClassA {
 
+    private static int matrix = 0;
+
     private void method1D(){
         b = 10;
         c = 20;
     }
+
+    public ClassD() {
+        matrix = 0;
+        ClassA.sum = 20;
+    }
+
+
 }

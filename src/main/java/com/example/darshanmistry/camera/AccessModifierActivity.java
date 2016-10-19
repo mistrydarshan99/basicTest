@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
+import com.example.darshanmistry.camera.package1.ClassA;
 import com.example.darshanmistry.camera.package1.ClassB;
 
 /**
@@ -19,5 +20,8 @@ public class AccessModifierActivity extends AppCompatActivity {
 
         ClassB classB = new ClassB();
         classB.method1();
+
+        ClassA classA = new ClassA();
+        ClassA.sum = 50;
     }
 }

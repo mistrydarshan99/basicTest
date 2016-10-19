@@ -2,11 +2,13 @@ package com.example.darshanmistry.camera.package1;
 
 import android.util.Log;
 
+import com.example.darshanmistry.camera.package1.interfaces.intergaceDemo;
+
 /**
  * Created by darshan.mistry on 9/2/2016.
  */
 
-public class ClassB {
+public class ClassB implements intergaceDemo {
 
     public ClassB() {
     }
@@ -24,5 +26,20 @@ public class ClassB {
 
     protected void method3() {
         Log.e("ClassB", "ClassB method3 callled");
+    }
+
+    @Override
+    public void A() {
+
+    }
+
+    @Override
+    public void B() {
+
+    }
+
+    @Override
+    public void C() {
+
     }
 }

@@ -13,5 +13,8 @@ public class ClassC extends ClassA{
 
     private void method1C(){
         c = 25;
+
     }
+
+
 }
